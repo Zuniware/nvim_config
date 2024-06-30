@@ -5,4 +5,4 @@ contains </br>
 *mason </br>
 *cmp </br>
 *catppuccin </br>
-*and probably lacks some code (I haven't configured the last one properly yet) 
+and probably lacks some code (I haven't configured the last one properly yet) 
