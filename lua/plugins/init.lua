@@ -64,7 +64,6 @@ lazy.setup({
 
             -- Adds a number of user-friendly snippets
             "rafamadriz/friendly-snippets",
-            "Exafunction/codeium.vim",
         },
         config = function()
             require("plugins.configs.cmp")
@@ -72,7 +71,11 @@ lazy.setup({
     },
     { "onsails/lspkind.nvim" },
 
-
+    {	"catppuccin/nvim", 
+	config = function()
+	  require("plugins.configs.catppuccin")
+	end,
+    },
     -- {
     --   "user/repo",
     --   dependencies = {
